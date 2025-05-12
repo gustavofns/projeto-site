@@ -11,17 +11,8 @@ p {
     font-size: 16px;
 }
 
-#sobre-mim-pagina {
-    color: white;
-    padding: 6px;
-    border: 1px solid whitesmoke;
-    border-radius: 8px;
-    font-size: 24px;
-    background-color: salmon;
-}
-
 /* Cria um container interno para armazenar a seção sobre mim e o aside sobre usando grid*/
-.container-interno {
+#container-interno {
     display: grid;
     width: 1000px;
     height: auto;

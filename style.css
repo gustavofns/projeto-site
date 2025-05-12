@@ -74,6 +74,16 @@ p {
     background-color: lightsalmon;
 }
 
+
+.pagina-atual {
+    color: white;
+    padding: 6px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: salmon;
+}
+
 .texto {
     text-indent: 25px;
 }
