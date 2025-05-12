@@ -3,43 +3,47 @@ body {
 }
 
 h1 {
-    color: whitesmoke;
+    color: white;
     font-size: 40px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 a {
-    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
     padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 .container-site {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1500px;
+    width: 1200px;
     height: auto;
     border: 5px dotted darksalmon;
     border-radius: 10px;
-}
-
-.container-interno {
-    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .container-titulo {
-    background-color: lightcoral;
-    border-radius: 10px;
-    margin-top: 25px;
-    padding: 5px;
     width: 500px;
     height: auto;
+    padding: 5px;
+    border: 3px dotted lightgrey;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: lightcoral;
 }
 
 .letra-inicial {
@@ -47,28 +51,62 @@ a {
 }
 
 .container-menu {
-    border: 3px dotted wheat;
+    width: 1000px;
+    padding: 12px;
+    border: 1px solid lightcoral;
     border-radius: 10px;
     margin-left: auto ;
     margin-right: auto;
-    width: 1000px;
-    text-align: left;
-    background-color: darkorange;
     margin-top: 25px;
-    padding: 10px;
-    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: whitesmoke;
 }
 
 .container-menu a:hover{
-    background-color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    color: white;
+    font-size: 24px;
+    text-decoration: underline;
+    background-color: lightsalmon;
 }
 
-#sobre-mim {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    border: 2px solid darkorange ;
-    width: 350px;
-    height: 650px;
-    background-color: whitesmoke;
+.texto {
+    text-indent: 25px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    width: 1000px;
+    height: auto;
+    padding: 12px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.container-github {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-rodape {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.github-rodape {
+    width: 20px;
+    height: 20px;
 }

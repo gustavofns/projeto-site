@@ -3,27 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>Sobre mim</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/sobre-mim.css">
 </head>
 <body>
     <div class="container-site">
-        <div class="container-interno">
+        <!-- header com titulo e menu -->
+        <header>
             <div class="container-titulo">
-                <h1><span class="letra-inicial">P</span>ortfólio de <span class="letra-inicial">P</span>rojetos</h1>
+                <h1>
+                    <span class="letra-inicial">P</span>ortfólio de <span class="letra-inicial">P</span>rojetos
+                </h1>
             </div>
-        
+
             <div class="container-menu">
-                <a href="index.html">Sobre mim</a>      
-                <a href="/paginas/portfolio.html">Projetos</a>
-                <a href="/paginas/edu.html">Educação</a>
-                <a href="/paginas/contato.html">Contato</a>
+                <nav>
+                    <a href="/index.html" id="sobre-mim-pagina" >Sobre mim</a>
+                    <a href="/paginas/portfolio.html">Portfolio</a>
+                    <a href="/paginas/edu.html">Educação</a>
+                    <a href="/paginas/contato.html">Contato</a>
+                </nav>
             </div>
-            
-            <div id="sobre-mim">
-    
-            </div>
+        </header>
+
+        <div class="container-interno">
+            <section id="secao-sobre">
+                <h2>Sobre mim</h2>
+                <p class="texto">Me nome é Gustavo, sou estudante de Engenharia de Software, gosto de videogames, ir ao cinema, e de ler bons livros, 
+                    e estou sempre buscando novas maneiras de apreender programação de um jeito mais ágil, fácil e divertido. </p>
+                <p class="texto">
+                    Tenho bastante interesse no framework .NET da Microsoft, e atualmente estou escrevendo um bloco de notas usando a
+                    linguagem de programação C# e o Windows Presentation Foundation (WPF) como interface gráfica.
+                </p>
+                <p class="texto">
+                    Outras linguagens de programação que também tenho interesse são: Java, JavaScript, Python, Rust e C++, e linguagens de marcação e estilização de texto como HTML e CSS. Além disso estou sempre disposto a encontrar soluções
+                    para problemas existentes, mesmo que eles não existam no mundo real.
+                </p>
+                <p class="texto">
+                    Ao contrário do que muitas pessoas pensam, programar não é apenas escrever um monte de código, é na verdade 
+                    construir soluções criativas com base em boas práticas de programação e padrões de arquitetura de software
+                    e de engenharia de software.
+                </p>
+                <p class="texto">De acordo com Robert C. Martin, em seu livro Arquitetura Limpa, <span style="font-style: italic;">"bons sistemas de software começam com um código limpo. Por outro lado, se os tijolos
+                não são bem feitos, a arquitetura da construção perde a importância"</span>.</p>
+                <p class="texto">Através dessa analogia posso concluir que existem várias maneiras programar, mas se não fizermos de uma maneira eficaz,
+                o código não funcionará como esperado.</p>
+                <p class="texto"></p>
+            </section>
+
+            <aside id="aside-sobre">
+                <img id="img-sobre" src="/imagens/sobre-mim.jpg">
+                <p><span class="span-sobre">Nome: </span>Gustavo F. N. Da Silva</p>
+                <p><span class="span-sobre">Cidade: </span>Cruz Alta</p>
+                <p><span class="span-sobre">Estado: </span>Rio Grande do Sul</p>
+                <p><span class="span-sobre">Nascimento: </span>05/01/1995</p>
+            </aside>
         </div>
+
+        <footer class="rodape"> 
+            <div class="container-github">
+                <a class="texto-rodape" href="https://github.com/gustavofns"><img class="github-rodape" src="/imagens/github-mark-white.png" target="https://github.com/gustavofns" alt="Página no GitHub"/> GitHub</a>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

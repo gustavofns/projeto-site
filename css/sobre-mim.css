@@ -1,0 +1,68 @@
+h2 {
+    border-radius: 3px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#sobre-mim-pagina {
+    color: white;
+    padding: 6px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: salmon;
+}
+
+/* Cria um container interno para armazenar a seção sobre mim e o aside sobre usando grid*/
+.container-interno {
+    display: grid;
+    width: 1000px;
+    height: auto;
+    grid-template-columns: 700px 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid salmon;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: white;
+}
+
+/* cria a seção sobre mim dentro do conteiner interno na primeira coluna*/
+#secao-sobre{
+    grid-column: 1;
+    margin-left: 16px;
+    margin-right: 16px;
+    background: white;
+}
+
+/* cria o aside sobre no container interno na segunda coluna */
+#aside-sobre {
+    border: 1px solid salmon;
+    border-radius: 8px;
+    grid-column: 2;
+    background-color: whitesmoke;
+    line-height: 1.0;
+}
+
+/* configura as bordas, o tamanho e altura da imagem dentro do aside */
+#img-sobre {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* Configura a fonte de algumas pelavras dentro do aside */
+.span-sobre{
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
