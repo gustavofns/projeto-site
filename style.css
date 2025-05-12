@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+
+.container-site {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: auto;
+    border: 5px dotted darksalmon;
+    border-radius: 10px;
+}
+
+.container-interno {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-titulo {
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.letra-inicial {
+    color: navy;
+}
+
+.container-menu {
+    border: 3px dotted wheat;
+    border-radius: 10px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 1000px;
+    text-align: left;
+    background-color: darkorange;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.container-menu a:hover{
+    background-color: black;
+}
+
+#sobre-mim {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid darkorange ;
+    width: 350px;
+    height: 650px;
+    background-color: whitesmoke;
+}
