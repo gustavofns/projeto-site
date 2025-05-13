@@ -95,16 +95,16 @@ p {
     width: 1000px;
     height: auto;
     padding: 12px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: orange;
+    background-color: darksalmon;
 }
 
-.container-github {
+.container-rodape {
     margin-left: auto;
     margin-right: auto;
 }
@@ -116,7 +116,7 @@ p {
     color: white;
 }
 
-.github-rodape {
+.img-rodape {
     width: 20px;
     height: 20px;
 }
