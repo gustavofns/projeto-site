@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educação</title>
-    <link rel="stylesheet" href="./css/estilos-padrao.css">
+    <link rel="stylesheet" href="./estilos-padrao.css">
+    <link rel="stylesheet" href="./css/educacao.css">
 </head>
 
 <body>
@@ -13,20 +14,78 @@
         <!-- header com titulo e menu -->
         <header>
             <div class="container-titulo">
-                <h1>
-                    <span class="letra-inicial">P</span>ortfólio de <span class="letra-inicial">P</span>rojetos
-                </h1>
+                <h1><span class="letra-inicial">P</span>ortfólio</h1>
             </div>
 
+            <!-- Container contendo o menu -->
             <div class="container-menu">
                 <nav>
                     <a href="./index.html">Sobre mim</a>
-                    <a href="./portfolio.html">Portfolio</a>
                     <a href="./edu.html" class="pagina-atual">Educação</a>
+                    <a href="./portfolio.html">Portfolio</a>
                     <a href="./contato.html">Contato</a>
                 </nav>
             </div>
+
         </header>
+
+        <div class="container-interno">
+            <section class="secao-edu" >
+                <h2>Formação Acadêmica</h2>
+                <ul id="formacao-ul">
+                    <li>Graduação:</li>
+                </ul>
+                <p class="edu-paragrafo">Bacharelado em Engenharia de Software - UNINTER Centro Universiversitário Internacional</p>
+                <p class="edu-paragrafo" style="font-size: 16px;"><span style="font-weight: bolder;">
+                    Inicio:</span> 12/2023<span style="margin-left: 50px; font-weight: bolder;"> Previsão de conclusão:</span> 12/2027</p>
+            </section>
+
+            <section class="secao-edu">
+                <h2>Hard Skills</h2>
+                <ul>
+                    <li><span style="font-weight: bolder;">Linguagens de Programação: </span>C#, Java, Python</li>
+                    <li><span style="font-weight: bolder;">Programação Web: </span>HTML, CSS, JavaScript</li>
+                    <li><span style="font-weight: bolder;">Bancos de Dados: </span>MySQL, MongoDB, Neo4j</li>
+                    <li><span style="font-weight: bolder;"">Ferramentas de Versionamento: </span>Git</li>
+                    <li><span style="font-weight: bolder;"">Computação em nuvem: </span>GCP (Google Cloud Platform) , AWS (Amazon Web Services)</li>
+                    <li><span style="font-weight: bolder;">Sistemas Operacionais: </span>Windows (7, 8.1, 10 e 11), Linux (Linux Mint, Ubuntu, Debian, openSUSE)</li>
+                    <li><span style="font-weight: bolder;">Pacote Office: </span>Microsoft Office (Word, Excel, PowerPoint, Outlook, Access), LibreOffice( Writer, Calc, Impress)</span></li>
+                </ul>
+            </section>
+
+            <section class="secao-edu">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Comunicação</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Agilidade</li>
+                    <li>Resolução de problemas</li>
+                    <li>Inteligência emocional</li>
+                    <li>Empatia</li>
+                    <li>Liderança</li>
+                    <li>Proatividade</li>
+                </ul>
+            </section>
+
+            <section class="secao-edu" id="idiomas">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Português Brasileiro - Nativo</li>
+                    <li>Inglês - Básico</li>
+                </ul>
+            </section>
+        </div>
+        
+        <footer class="rodape">
+            <div class="container-rodape">
+                <a class="texto-rodape" href="https://github.com/gustavofns">
+                    <img class="img-rodape" src="./imagens/github-mark-white.png" target="https://github.com/gustavofns"
+                        alt="Página no GitHub" /> GitHub </a>
+                <a class="texto-rodape" href="mailto:dev.gustavofns@gmail.com">
+                    <img class="img-rodape" src="./imagens/email.png" target="mailto:dev.gustavofns@gmail.com" alt="Email">
+                    dev.gustavofns@gmail.com</a>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

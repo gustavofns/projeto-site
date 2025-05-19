@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="./css/estilos-padrao.css">
+    <link rel="stylesheet" href="./estilos-padrao.css">
+    <link rel="stylesheet" href="./css/contato.css"
 </head>
 
 <body>
@@ -13,21 +14,57 @@
         <!-- header com titulo e menu -->
         <header>
             <div class="container-titulo">
-                <h1>
-                    <span class="letra-inicial">P</span>ortfólio de <span class="letra-inicial">P</span>rojetos
-                </h1>
+                <h1><span class="letra-inicial">P</span>ortfólio</h1>
             </div>
 
+            <!-- Container contendo o menu -->
             <div class="container-menu">
                 <nav>
                     <a href="./index.html">Sobre mim</a>
-                    <a href="./portfolio.html">Portfolio</a>
                     <a href="./edu.html"">Educação</a>
+                    <a href="./portfolio.html">Portfolio</a>
                     <a href="./contato.html" class="pagina-atual">Contato</a>
                 </nav>
             </div>
         </header>
+
+        <div class="container-interno">
+            <div id="container-mensagem">
+                <h2 style="text-align: left;">Envie sua mensagem</h2>
+                <form action="" method="">
+                    <table>
+                        <tr>
+                            <th><label for="nome">Nome: </label></th>
+                            <td><input type="text" name="nome"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">E-mail:</label></th>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="msg">Digite sua mensagem:</label></th>
+                            <td><textarea name="msg" rows="10" cols="40">Digite sua mensagem</textarea></td>   
+                        </tr>
+                        <br>
+                        <tr>
+                            <td></td>
+                            <td><button id="botao-enviar">Enviar</button></td>
+                        </t>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <footer class="rodape">
+            <div class="container-rodape">
+                <a class="texto-rodape" href="https://github.com/gustavofns">
+                    <img class="img-rodape" src="./imagens/github-mark-white.png" target="https://github.com/gustavofns"
+                        alt="Página no GitHub" /> GitHub </a>
+                <a class="texto-rodape" href="mailto:dev.gustavofns@gmail.com">
+                    <img class="img-rodape" src="./imagens/email.png" target="mailto:dev.gustavofns@gmail.com" alt="Email">
+                    dev.gustavofns@gmail.com</a>
+            </div>
+        </footer>
     </div>
 </body>
-
 </html>

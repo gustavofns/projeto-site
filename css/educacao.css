@@ -1,0 +1,29 @@
+h2 {
+    border-bottom: 3px solid salmon;
+    text-align: left;
+    background-color: brown;
+}
+
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secao-edu {
+    padding-bottom: 6px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+#formacao-ul {
+    font-size: 20px;
+    font-style:inherit;
+    font-weight: bolder;
+}
+
+.edu-paragrafo{
+    text-indent: 50px;
+}
+
+#idiomas {
+    font-size: 18px;
+}

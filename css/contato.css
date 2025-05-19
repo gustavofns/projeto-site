@@ -1,0 +1,17 @@
+h2{
+    border-bottom: 3px solid chocolate;
+}
+
+#container-mensagem {
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+#botao-enviar{
+    padding: 8px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    background-color: orange;
+}

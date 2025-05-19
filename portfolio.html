@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="./css/estilos-padrao.css">
+    <link rel="stylesheet" href="./estilos-padrao.css">
+    <link rel="stylesheet" href="./css/portifolio.css">
 </head>
 
 <body>
@@ -14,19 +15,77 @@
         <header>
             <div class="container-titulo">
                 <h1>
-                    <span class="letra-inicial">P</span>ortfólio de <span class="letra-inicial">P</span>rojetos
+                    <h1><span class="letra-inicial">P</span>ortfólio</h1>
                 </h1>
             </div>
 
+            <!-- Container contendo o menu -->
             <div class="container-menu">
                 <nav>
                     <a href="./index.html">Sobre mim</a>
-                    <a href="./portfolio.html" class="pagina-atual">Portfolio</a>
                     <a href="./edu.html"">Educação</a>
+                    <a href="./portfolio.html" class="pagina-atual">Portfolio</a>
                     <a href=" ./contato.html">Contato</a>
                 </nav>
             </div>
         </header>
+
+        <div class="container-interno">
+            <!-- -->
+            <Section class="secao">
+                <h2>Bloco de notas moderno</h2>
+                <p class="recuo-paragrafo">Este projeto consiste em aplicar meus conhecimentos em C#, programação orientada a objetos e WPF(Windows Presentation Foundation).
+                    O principal objetivo desse projeto é construir um bloco de notas moderno, visando a manutenibilidade de código e uma interface de usuário moderna e intuitiva, usando o .NET 9 para fins aprendizagem e aperfeiçoamento profissional.</p>
+                    <figure>
+                        <img class="img" src="./imagens/portfolio/bloco_de_notas_claro.png" alt="Bloco de notas moderno com tema claro">
+                        <figcaption style="text-align: center;">Imagem 1: Bloco de notas moderno com tema claro</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img class="img" src="./imagens/portfolio/bloco_de_notas_escuro.png" alt="Bloco de notas moderno com tema escuro">
+                        <figcaption style="text-align: center;">Imagem 2: Bloco de notas moderno com tema escuro</figcaption>
+                    </figure>
+
+                    <p class="recuo-paragrafo">O C# é uma linguagem de programação desenvolvida Microsoft, que faz parte da plataforma .NET.
+                        Ele usa o paradigma de programação orientado a objetos e foi influênciado por linguagens de programação como Object
+                        Pascal e principal Java.<a href="https://pt.wikipedia.org/wiki/C_Sharp" style="font-size: 14px;">(Fonte:
+                            Wikipédia)</a></p>
+                    <p class="recuo-paragrafo">O .NET é uma plataforma de desenvolvimento gratuita multiplataforma e de código aberto para
+                        criar muitos tipos de aplicativos. Ele pode pexecutar programas escritos em vários idiomas, com o C# sendo o
+                        mais popular.<a href="https://learn.microsoft.com/pt-br/dotnet/core/introduction" style="font-size: 14px;">(Fonte:
+                            Microsoft)</a></p>
+                    <figure>
+                        <img class="img" src="./imagens/portfolio/troca_de_tema.gif" alt="Bloco de notas mudando o tema de acordo o com do sistema operacional">
+                        <figcaption style="text-align: center;">Imagem 3: GIF mostra o bloco de notas mudando o tema de acordo com o sistema operacional</figcaption>
+                    </figure>
+
+                    <p class="recuo-paragrafo"> A versão mais recente da plataforma, o .NET 9.0, inclui novidades como o suporte à temas claro e escuro no WPF, conforme a imagem acima do projeto. O WPF (Windows Presentation Foundation) é uma interface de usuário para criar aplicativos para área de trabalho. A plataforma de desenvolvimento do WPF dá suporte a um amplo conjunto de recursos de desenvolvimento de
+                    aplicativos, incluindo um modelo de aplicativo, recursos, controles, gráficos, layout, associação de dados, documentos e
+                    segurança. <a href="https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-wpf?view=vs-2022" style="font-size: 14px;">(Fonte: Microsoft)</a></p>
+                    <p class="recuo-paragrafo">Com esse projeto acredido que poderei melhorar minhas habilidades de programação, adquirir mais conhecimentos sobre a plataforma .NET, c# e WPF, e  ainda criar um aplicativo com funcionalidades incríveis.</p>
+                    <br>
+                    
+                    <button id="botao-projeto">
+                        <a href="https://github.com/gustavofns/BlocoDeNotas">
+                            <img class="img-rodape" src="./imagens/github-mark-white.png" alt="Página do projeto no GitHub"/>
+                            <span style="color: white; font-size: 16;">Página do Projeto no GitHub</span></a>
+                    </button>
+                </Section>
+                
+
+        </div>
+
+
+        <footer class="rodape">
+            <div class="container-rodape">
+                <a class="texto-rodape" href="https://github.com/gustavofns">
+                    <img class="img-rodape" src="./imagens/github-mark-white.png" target="https://github.com/gustavofns"
+                        alt="Página no GitHub" /> GitHub </a>
+                <a class="texto-rodape" href="mailto:dev.gustavofns@email.com">
+                    <img class="img-rodape" src="./imagens/email.png" target="mailto:dev.gustavofns@email.com" alt="Email">
+                    dev.gustavofns@email.com</a>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
