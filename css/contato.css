@@ -1,12 +1,15 @@
+/* Configura a do cabeçalho de nível 2*/
 h2{
     border-bottom: 3px solid chocolate;
 }
 
+/*configura o padding e cor de fundo do container */
 #container-mensagem {
     padding-bottom: 10px;
     background-color: whitesmoke;
 }
 
+/* Configura o padding, a borda, a cor de fundo, a cor e o tamnho da fonte */
 #botao-enviar{
     padding: 8px;
     border: 1px solid orange;

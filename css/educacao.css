@@ -1,29 +1,35 @@
+/* Configura a borda, o alinhamento de texto e a cor de fundo do cabeçalho de nível 2*/
 h2 {
     border-bottom: 3px solid salmon;
     text-align: left;
     background-color: brown;
 }
 
+/*Configura a fonte de lista não ordenada */
 ul{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Configura o padding, a borda e cor de fundo */
 .secao-edu {
     padding-bottom: 6px;
     border-radius: 8px;
     background-color: whitesmoke;
 }
 
+/*configura a fonte, o estilo e o tipo de fonte da lista não ordenada */
 #formacao-ul {
     font-size: 20px;
     font-style:inherit;
     font-weight: bolder;
 }
 
+/* Configura o recuo do paragrafo */
 .edu-paragrafo{
     text-indent: 50px;
 }
 
+/*configura o tamananho da fonte *
 #idiomas {
     font-size: 18px;
 }

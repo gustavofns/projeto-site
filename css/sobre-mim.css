@@ -1,7 +1,15 @@
-/* Configura o grid interno */
+/* Cria o grid interno */
 #grid-interno{
     display: grid;
     grid-template-columns: 700px 300px;
+}
+
+/* configura a cor e a margem da seção sobre na primeira coluna */
+#secao-sobre {
+    grid-column: 1;
+    margin-left: 16px;
+    margin-right: 16px;
+    background: white;
 }
 
 /* cria o aside sobre no container interno na segunda coluna */
@@ -11,13 +19,6 @@
     grid-column: 2;
     background-color: whitesmoke;
     line-height: 1.0;
-}
-
-#secao-sobre {
-    grid-column: 1;
-    margin-left: 16px;
-    margin-right: 16px;
-    background: white;
 }
 
 /* configura as bordas, o tamanho e altura da imagem dentro do aside */

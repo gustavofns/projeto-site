@@ -1,7 +1,10 @@
+
+/* configura a cor de fundo do corpo da página */
 body {
     background-color: black;
 }
 
+/* Configura a fonte  do cabeçalho de nível 1*/
 h1 {
     color: white;
     font-size: 40px;
@@ -9,6 +12,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+/* Configura a borda e a cor de fundo do cabeçalho de nível 2*/
 h2 {
     padding: 15px;
     border-radius: 8px 8px 0px 0px;
@@ -18,11 +22,7 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-}
-
+/* configura a fonte, a cor e o padding do link*/
 a {
     text-decoration: none;
     font-size: 22px;
@@ -31,12 +31,13 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* configura a fonte do parágrafo */
 p {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* */
+/* configura o container do site */
 .container-site {
     width: 1200px;
     height:auto;
@@ -98,7 +99,6 @@ p {
     background-color: lightsalmon;
 }
 
-
 .pagina-atual {
     color: white;
     padding: 6px;
@@ -143,11 +143,13 @@ p {
     background-color:salmon;
 }
 
+/*configura o container do rodapé */
 .container-rodape {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* configura o texto do rodapé */
 .texto-rodape {
     text-align: left;
     font-size: 20px;
@@ -155,6 +157,7 @@ p {
     color: white;
 }
 
+/* configura o tamanho da imagem no rodapé */
 .img-rodape {
     width: 20px;
     height: 20px;
